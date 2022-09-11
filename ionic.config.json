@@ -1,0 +1,7 @@
+{
+  "name": "Modern_Looking_Menu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
