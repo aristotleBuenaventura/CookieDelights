@@ -10,27 +10,41 @@
         </ion-label>
       </div>
       <ion-list class="menu-items" lines="none" >
-        <ion-item class="active">
-          <ion-icon name="home"></ion-icon>Home
-        </ion-item>
-        <ion-item>
-          <ion-icon name="cart"></ion-icon>Products
-        </ion-item>
-        <ion-item>
-          <ion-img src="assets/recipeIcon.png" class="icon me-3"></ion-img>Daily Recipe
-        </ion-item>
-        <ion-item>
-          <ion-img src="assets/cookieIcon.png" class="icon me-3"></ion-img>Cookie Prep
-        </ion-item>
-        <ion-item>
-          <ion-img src="assets/policyIcon.png" class="icon me-3"></ion-img>Shop Policy
-        </ion-item>
-        <ion-item>
-          <ion-icon name="information-circle"></ion-icon>About the App
-        </ion-item>
-        <ion-item>
-          <ion-icon name="call"></ion-icon>Developers
-        </ion-item>
+        <ion-menu-toggle>
+          <ion-item routerLink="/home">
+            <ion-icon name="home"></ion-icon>Home
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/products">
+            <ion-icon name="cart"></ion-icon>Products
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/daily-recipe">
+            <ion-img src="assets/recipeIcon.png" class="icon me-3"></ion-img>Daily Recipe
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/cookie-prep">
+            <ion-img src="assets/cookieIcon.png" class="icon me-3"></ion-img>Cookie Prep
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/shop-policy">
+            <ion-img src="assets/policyIcon.png" class="icon me-3"></ion-img>Shop Policy
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/about-the-app">
+            <ion-icon name="information-circle"></ion-icon>About the App
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/developers">
+            <ion-icon name="call"></ion-icon>Developers
+          </ion-item>
+        </ion-menu-toggle>
       </ion-list>
     </ion-content>
     <ion-img src="assets/cookies.png" class="cookies"></ion-img>

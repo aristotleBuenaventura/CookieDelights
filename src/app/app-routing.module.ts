@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'products',
+    loadChildren: () => import('./pages/products/products.module').then( m => m.ProductsPageModule)
+  },
+  {
+    path: 'daily-recipe',
+    loadChildren: () => import('./pages/daily-recipe/daily-recipe.module').then( m => m.DailyRecipePageModule)
+  },
+  {
+    path: 'cookie-prep',
+    loadChildren: () => import('./pages/cookie-prep/cookie-prep.module').then( m => m.CookiePrepPageModule)
+  },
+  {
+    path: 'shop-policy',
+    loadChildren: () => import('./pages/shop-policy/shop-policy.module').then( m => m.ShopPolicyPageModule)
+  },
+  {
+    path: 'about-the-app',
+    loadChildren: () => import('./pages/about-the-app/about-the-app.module').then( m => m.AboutTheAppPageModule)
+  },
+  {
+    path: 'developers',
+    loadChildren: () => import('./pages/developers/developers.module').then( m => m.DevelopersPageModule)
+  },
 ];
 
 @NgModule({
