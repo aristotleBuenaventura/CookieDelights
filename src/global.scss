@@ -29,6 +29,13 @@
     font-family: 'Vanilla';    //This is what we are going to call
     src: url('assets/Vanilla.ttf');
   }
+  
+ion-content {
+  width: calc(100% + 15px);
+}
+ion-content::part(scroll) {
+  padding-right: 15px;
+}
 
   
 
