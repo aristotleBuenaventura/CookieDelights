@@ -1,3 +1,40 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu menuId="main-menu" contentId="main" >
+    <ion-content >
+      <div class="menu-header-bg bg-menu"></div>
+      <div class="header-content">
+        <ion-label>
+          <h1 class="fw-bold menuTitle mb-2">Cookie Delights</h1>
+          <p class="fw-bold">A quick bite for a sweet apetite</p>
+          <hr class="line">
+        </ion-label>
+      </div>
+      <ion-list class="menu-items" lines="none" >
+        <ion-item class="active">
+          <ion-icon name="home"></ion-icon>Home
+        </ion-item>
+        <ion-item>
+          <ion-icon name="cart"></ion-icon>Products
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets/recipeIcon.png" class="icon me-3"></ion-img>Daily Recipe
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets/cookieIcon.png" class="icon me-3"></ion-img>Cookie Prep
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets/policyIcon.png" class="icon me-3"></ion-img>Shop Policy
+        </ion-item>
+        <ion-item>
+          <ion-icon name="information-circle"></ion-icon>About the App
+        </ion-item>
+        <ion-item>
+          <ion-icon name="call"></ion-icon>Developers
+        </ion-item>
+      </ion-list>
+    </ion-content>
+    <ion-img src="assets/cookies.png" class="cookies"></ion-img>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
+ 

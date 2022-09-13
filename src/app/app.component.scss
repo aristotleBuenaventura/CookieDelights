@@ -1,0 +1,101 @@
+*{
+    font-family: lato;
+}
+
+.bg-menu{
+    background-color: #f5b97d;
+    
+}
+
+.menuTitle{
+    font-family: 'Vanilla';
+}
+
+.line{
+    border-top: 5px solid #603813;
+}
+
+.icon{
+    height: 30px;
+}
+
+ion-menu {
+    --ion-background-color: #f5b97d;
+  
+    ion-toolbar {
+      --background: #f5b97d;
+    }
+  
+    ion-list {/* optional, but it needs when you use gradient as a background color.*/
+      background: transparent;
+    }
+  }
+
+.menu-header-bg{
+    height: 180px;
+    width: 350px;
+}
+
+.header-content{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    
+    p{
+        font-size: 15px;
+        color: #545454;
+        font-weight: 200;
+        letter-spacing: 0;
+
+    }
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    ion-button {
+        text-transform: capitalize;
+        font-weight: 300;
+        --background: #603813;
+        --border-radius: 7px;
+        --box-shadow: none;
+    }
+
+    ion-icon {
+        margin-right: 1px;
+    }
+}
+
+.menu-items {
+    margin: 0px;
+
+    ion-icon{
+        margin-right: 20px;
+        color: #603813;
+    }
+
+    ion-item {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .active {
+        border-left: 5px solid;
+        color: #603813;
+        padding-left: 15px;
+        
+        ion-icon {
+            color: #603813;
+        }
+    }
+}
+
+.cookies {
+    position: relative;
+    bottom: 0px;
+    height: 130px;
+}
