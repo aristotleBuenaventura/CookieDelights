@@ -1,7 +1,8 @@
 {
   "name": "Modern_Menu",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

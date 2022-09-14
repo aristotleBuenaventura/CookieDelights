@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { ProductsPageRoutingModule } from './products-routing.module';
 
 import { ProductsPage } from './products.page';
+import { SplashScreenPage } from '../splash-screen/splash-screen.page';
 
 @NgModule({
   imports: [

@@ -9,6 +9,8 @@
 
 .menuTitle{
     font-family: 'Vanilla';
+    font-weight: 5;
+    font-size: 18px;
 }
 
 .line{
@@ -103,4 +105,18 @@ ion-menu {
     position: relative;
     bottom: 0px;
     height: 130px;
+}
+
+.smallLogo{
+    position: absolute;
+    height: 75px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#slogan{
+    font-family: 'vanilla';
+    font-size: 8px;
+    color: #000;
+    font-weight: bold;
 }
