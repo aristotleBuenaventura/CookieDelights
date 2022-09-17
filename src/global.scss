@@ -38,5 +38,24 @@ ion-content::part(scroll) {
 }
 
   
+.card-modal{
+  --height: 50%;
+  --width: 90%;
+  --border-radius: 10px
+  padding 25px;
+}
 
+.cart{
+  ion-icon{
+    color: #e9dac1;
+  }
 
+  .cart-length{
+    color: #e9dac1;
+  }
+}
+
+h6{
+  font-family: "blackjack";
+  text-align:right ;
+}

@@ -4,6 +4,12 @@
       <ion-buttons slot="start">
         <ion-menu-button menu="main-menu" class="header"></ion-menu-button>
       </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button (click)="openCart()" #cart class="cart">
+          <div class="cart-length">{{cartItemCount | async }}</div>
+          <ion-icon name="cart" class="cart-icon"></ion-icon>
+        </ion-button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
   
@@ -50,6 +56,13 @@
      
     </div>
   </ion-card>
+  <div class="container">
+    <div class="row">
+      <div class="col me-2 mb-4">
+        <h6>©SweetCreations</h6>
+      </div>
+    </div>
+  </div>
   </ion-content>
   </ion-app>
   

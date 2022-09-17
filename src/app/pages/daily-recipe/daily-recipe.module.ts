@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 import { DailyRecipePageRoutingModule } from './daily-recipe-routing.module';
 
 import { DailyRecipePage } from './daily-recipe.page';
+import { ProductsPage } from '../products/products.page';
+import { CartModalPage } from '../cart-modal/cart-modal.page';
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { DailyRecipePage } from './daily-recipe.page';
     IonicModule,
     DailyRecipePageRoutingModule
   ],
-  declarations: [DailyRecipePage]
+  declarations: [DailyRecipePage,CartModalPage,ProductsPage]
 })
 export class DailyRecipePageModule {}
