@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'cart-modal',
     loadChildren: () => import('./pages/cart-modal/cart-modal.module').then( m => m.CartModalPageModule)
   },
+  {
+    path: 'know-your-cookies',
+    loadChildren: () => import('./pages/know-your-cookies/know-your-cookies.module').then( m => m.KnowYourCookiesPageModule)
+  },
   
 ];
 

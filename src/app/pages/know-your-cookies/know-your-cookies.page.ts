@@ -3,13 +3,14 @@ import { ModalController } from '@ionic/angular';
 import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 import { CartService } from 'src/app/services/cart.service';
 import { CartModalPage } from '../cart-modal/cart-modal.page';
-
 @Component({
-  selector: 'app-about-the-app',
-  templateUrl: './about-the-app.page.html',
-  styleUrls: ['./about-the-app.page.scss'],
+  selector: 'app-know-your-cookies',
+  templateUrl: './know-your-cookies.page.html',
+  styleUrls: ['./know-your-cookies.page.scss'],
 })
-export class AboutTheAppPage implements OnInit {
+export class KnowYourCookiesPage implements OnInit {
+
+  
   cart = [];
   products= [];
   cartItemCount: BehaviorSubject<number>;
