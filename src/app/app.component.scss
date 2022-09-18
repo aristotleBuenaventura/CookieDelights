@@ -51,7 +51,8 @@ ion-menu {
     align-items: center;
     
     p{
-        font-size: 15px;
+        font-family: "inter";
+        font-size: 12px;
         color: #545454;
         font-weight: 200;
         letter-spacing: 0;
@@ -88,6 +89,7 @@ ion-menu {
     ion-item {
         padding-left: 20px;
         margin-bottom: 10px;
+        font-family: "inter";
     }
 
     .active {
